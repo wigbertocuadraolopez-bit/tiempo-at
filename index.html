@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- TIEMPO Homepage — copia maestra preparada por Lía (2026-11-05). Archivo único, sin candados: editable por cualquier persona o IA con acceso al servidor. -->
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>株式会社TIEMPO（ティエンポ）｜労働者派遣・有料職業紹介</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Noto Sans JP",sans-serif; color:#1c2b3a; background:#f4f6f9; line-height:1.7; }
+  .util { background:#174C92; color:#cfe0f2; font-size:12.5px; padding:7px 16px; display:flex; flex-wrap:wrap; gap:4px 20px; justify-content:center; align-items:center; }
+  .util b { color:#fff; font-weight:700; }
+  .util .u-tel { color:#ffd98a; font-size:15px; font-weight:800; letter-spacing:.5px; text-decoration:none; }
+  header.site { background:#174C92; border-bottom:3px solid #174C92; position:sticky; top:0; z-index:50; }
+  .header-in { max-width:1240px; margin:0 auto; padding:8px 16px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  .logo { height:60px; background:transparent; padding:4px 2px; }
+  .brand { font-size:22px; font-weight:800; letter-spacing:2px; color:#174C92; }
+  .brand small { display:block; font-size:20px; letter-spacing:.5px; color:#fff; font-weight:800; line-height:1.25; white-space:nowrap; }
+  .lic { font-size:11.5px; color:#c9dcf2; line-height:1.5; text-align:left; border-left:3px solid rgba(255,255,255,.35); padding-left:12px; white-space:nowrap; } .lic b { font-size:13px; color:#fff; }
+  .lic b { color:#fff; }
+  nav { display:flex; gap:4px; flex-wrap:wrap; }
+  nav a { color:#174C92; text-decoration:none; font-weight:700; font-size:14px; padding:8px 10px; border-radius:8px; }
+  nav a:hover { background:#eaf1f8; }
+  .hdr-right { margin-left:auto; display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+  .hdr-tel { background:#f7b500; color:#174C92; text-decoration:none; font-weight:800; border-radius:999px; padding:8px 15px; font-size:14px; white-space:nowrap; }
+  .lang { display:flex; border:2px solid #fff; border-radius:999px; overflow:hidden; }
+  .lang button { border:0; background:transparent; color:#fff; font-weight:800; font-size:12px; padding:6px 10px; cursor:pointer; font-family:inherit; } .lang button + button { border-left:1px solid rgba(255,255,255,.4); }
+  .lang button.on { background:#fff; color:#174C92; }
+  @media (max-width:820px){ .logo{height:46px} .brand small{font-size:17px} .lic{display:none} }
+  /* HERO */
+  .hero { background:linear-gradient(160deg,#174C92 0%,#174C92 70%); color:#fff; }
+.hero-banner { width:100%; display:block; }
+  .hero-in { max-width:1080px; margin:0 auto; padding:30px 16px 36px; display:grid; grid-template-columns:1.25fr .75fr; gap:26px; align-items:center; }
+  @media (max-width:820px){ .hero-in{ grid-template-columns:1fr; } }
+  .hero .photo-band { width:100%; height:150px; object-fit:cover; display:block; filter:brightness(.75); border-radius:12px; margin-bottom:18px; }
+  .hero h1 { font-size:clamp(25px,4.6vw,40px); font-weight:800; line-height:1.35; letter-spacing:1px; }
+  .hero h1 .gold { color:#f5a623; }
+  .hero .hero-jobs { margin-top:12px; font-size:clamp(21px,3.8vw,32px); font-weight:800; line-height:1.4; letter-spacing:.5px; }
+  .hero .cities { margin-top:6px; font-size:13.5px; opacity:.85; }
+  .cta-row { margin-top:20px; display:flex; gap:10px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:13px 24px; border-radius:999px; font-weight:800; text-decoration:none; font-size:15px; }
+  .btn-gold { background:#f5a623; color:#231a04; }
+  .btn-line { background:#06c755; color:#fff; }
+  .btn-wa { background:#25d366; color:#fff; }
+  .btn-ghost { background:rgba(255,255,255,.12); color:#fff; border:2px solid #fff; }
+  .vid-wrap { justify-self:center; width:min(320px,86vw); }
+  .vid-frame { background:#000; border-radius:22px; padding:8px; box-shadow:0 14px 34px rgba(0,0,0,.45); border:3px solid rgba(255,255,255,.22); }
+  .vid-frame video { width:100%; display:block; border-radius:15px; aspect-ratio:704/1248; object-fit:cover; background:#000; }
+  .vid-cap { text-align:center; font-size:12.5px; opacity:.85; margin-top:9px; }
+  /* SECTIONS */
+  section { max-width:1080px; margin:0 auto; padding:38px 16px 6px; }
+  .intro { background:#fff; border-radius:14px; padding:26px; box-shadow:0 2px 10px rgba(23,76,146,.07); font-size:16px; }
+  .intro b { color:#174C92; }
+  h2.sec { font-size:23px; color:#174C92; border-left:6px solid #f5a623; padding-left:12px; margin-bottom:6px; }
+  .sec-en { color:#7d93a8; font-size:12px; letter-spacing:3px; font-weight:700; margin:0 0 16px 18px; }
+  .chips { display:flex; flex-wrap:wrap; gap:9px; }
+  .chip { background:#174C92; color:#fff; border-radius:999px; padding:8px 16px; font-weight:700; font-size:14px; }
+  .chip.alt { background:#e2ecf6; color:#174C92; }
+  .duo { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  @media (max-width:760px){ .duo{ grid-template-columns:1fr; } }
+  .card { background:#fff; border-radius:14px; padding:24px; box-shadow:0 2px 10px rgba(23,76,146,.07); }
+  .card h3 { color:#174C92; font-size:19px; margin-bottom:8px; }
+  .card .en { color:#f5a623; font-weight:800; letter-spacing:2px; font-size:12px; }
+  .card a.more { display:inline-block; margin-top:12px; color:#174C92; font-weight:700; text-decoration:none; }
+  /* DIFF STRIP */
+  .diff { background:#fff7e8; border:2px solid #f5a623; border-radius:14px; padding:22px 24px; }
+  .diff h2 { font-size:21px; color:#174C92; margin-bottom:12px; }
+  .diff ul { list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:10px 22px; }
+  @media (max-width:760px){ .diff ul{ grid-template-columns:1fr; } }
+  .diff li { font-size:15px; font-weight:600; padding-left:26px; position:relative; }
+  .diff li::before { content:"✓"; position:absolute; left:0; color:#e07b00; font-weight:900; }
+  .diff li b { color:#174C92; }
+  /* JOBS */
+  .jobs { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
+  .job { background:#fff; border-radius:14px; overflow:hidden; box-shadow:0 2px 10px rgba(23,76,146,.07); border-top:5px solid #174C92; display:flex; flex-direction:column; }
+  .job img { width:100%; height:auto; display:block; background:#fff; }
+  .job .body { padding:16px 18px 18px; display:flex; flex-direction:column; flex:1; }
+  .job .city { font-weight:800; color:#174C92; font-size:16px; }
+  .job .price { font-size:27px; font-weight:800; color:#d35400; }
+  .job .price small { font-size:13px; color:#5a7186; font-weight:600; }
+  .job p { font-size:13.5px; color:#3c4f61; }
+  .job .tags { margin:8px 0; display:flex; gap:6px; flex-wrap:wrap; }
+  .tag { background:#eef4fa; color:#174C92; font-size:11.5px; font-weight:700; border-radius:6px; padding:3px 8px; }
+  .job .acts { display:flex; gap:8px; margin-top:auto; padding-top:12px; }
+  .job .acts a { flex:1; text-align:center; padding:10px 4px; border-radius:9px; font-weight:800; font-size:14px; text-decoration:none; }
+  .a-call { background:#174C92; color:#fff; }
+  .a-line { background:#06c755; color:#fff; }
+  .a-wa { background:#25d366; color:#fff; }
+  /* RECRUITERS */
+  .staff { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:14px; }
+  .person { background:#fff; border-radius:14px; padding:20px; box-shadow:0 2px 10px rgba(23,76,146,.07); border-left:6px solid #f5a623; }
+  .person .role { font-size:12px; font-weight:800; letter-spacing:2px; color:#e07b00; }
+  .person h3 { color:#174C92; font-size:19px; margin:2px 0 2px; }
+  .person .num { font-size:22px; font-weight:800; color:#174C92; letter-spacing:.5px; }
+  .person .acts { display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
+  .person .acts a { flex:1; min-width:88px; text-align:center; padding:9px 4px; border-radius:9px; font-weight:800; font-size:13.5px; text-decoration:none; }
+  .greet { background:#174C92; color:#eaf1f8; border-radius:14px; padding:26px; }
+  .greet h3 { color:#fff; font-size:19px; margin-bottom:8px; }
+  .contact-band { background:#fff; border-radius:14px; padding:26px; box-shadow:0 2px 10px rgba(23,76,146,.07); text-align:center; }
+  .contact-band .cta-row { justify-content:center; }
+  .tel-big { font-size:clamp(28px,6vw,40px); font-weight:800; color:#174C92; letter-spacing:1px; }
+  
+  /* NAV STRIP */
+  .navstrip { background:#174C92; }
+  .navstrip-in { max-width:1240px; margin:0 auto; padding:0 16px; height:38px; display:flex; align-items:center; justify-content:center; gap:4px; flex-wrap:wrap; }
+  .navstrip a { color:#fff; text-decoration:none; font-size:13.5px; font-weight:700; padding:4px 10px; }
+  .navstrip a:hover { text-decoration:underline; }
+  .navstrip .nsep { color:#7fa6cf; font-size:12px; }
+  /* FOOTER NAV + PRIVACY LINK */
+  .foot-nav { margin:2px 0; }
+  .foot-nav a { color:#fff; text-decoration:none; font-weight:700; font-size:13.5px; padding:2px 6px; }
+  .foot-nav a:hover { text-decoration:underline; }
+  .foot-nav .sep { color:#8fa9c4; }
+  .foot-priv { margin-top:12px; }
+  .foot-priv a { color:#cfe0f2; font-size:13px; }
+  /* PRIVACY POLICY */
+  #privacy .pbox { background:#fff; border-radius:12px; padding:22px 26px; text-align:left; box-shadow:0 1px 4px rgba(16,58,112,.08); }
+  #privacy .pbox p { font-size:13.5px; color:#33475c; margin:0 0 8px; }
+  #privacy .pbox h3 { color:#174C92; font-size:15.5px; margin:14px 0 4px; }
+  footer.site { margin-top:42px; background:#174C92; color:#cfe0f2; padding:26px 16px 96px; text-align:center; font-size:13px; }
+  footer.site .cr { margin-top:10px; color:#8fa9c4; }
+footer.site .foot-logo { height:46px; display:block; margin:0 auto 12px; }
+  .fixed-bar { position:fixed; left:0; right:0; bottom:0; display:flex; z-index:60; box-shadow:0 -2px 12px rgba(0,0,0,.25); }
+  .fixed-bar a { flex:1; text-align:center; padding:14px 4px; color:#fff; font-weight:800; text-decoration:none; font-size:15px; }
+  .fb-call { background:#174C92; } .fb-line { background:#06c755; } .fb-wa { background:#25d366; }
+  .note { max-width:1080px; margin:14px auto 0; padding:0 16px; color:#71879a; font-size:12px; }
+</style>
+</head>
+<body>
+
+<div class="util">
+  <span>労働者派遣事業 <b>派23-302469</b></span>
+  <span>有料職業紹介事業 <b>23-ユ301677</b></span>
+  <span>お電話は <a class="u-tel" href="tel:0532331200">0532-33-1200</a></span>
+  <span>MAIL <b>info@tiempo-at.jp</b></span>
+</div>
+
+<header class="site" id="top">
+  <div class="header-in">
+    <img class="logo" src="images/home/logo-tiempo-blanco.png" alt="TIEMPO">
+    <div class="brand"><small>株式会社TIEMPO（ティエンポ）</small></div>
+    <div class="hdr-right">
+      <div class="lic">労働者派遣事業　<b>派23-302469</b><br>有料職業紹介事業　<b>23-ユ301677</b></div>
+      <div class="lang" role="group" aria-label="Language / 言語">
+        <button id="btn-ja" class="on" onclick="setLang('ja')">日本語</button>
+        <button id="btn-pt" onclick="setLang('pt')">Português</button>
+        <button id="btn-en" onclick="setLang('en')">English</button>
+        <button id="btn-es" onclick="setLang('es')">Español</button>
+      </div>
+      <a class="hdr-tel" href="tel:0532331200">☎ 0532-33-1200</a>
+    </div>
+  </div>
+</header>
+<div class="navstrip"><div class="navstrip-in"><a href="./" data-ja="ホーム" data-pt="Início" data-en="Home" data-es="Inicio">ホーム</a><span class="nsep">｜</span><a href="business" data-ja="事業内容" data-pt="Negócios" data-en="Business" data-es="Negocios">事業内容</a><span class="nsep">｜</span><a href="https://empleos.tiempo-at.jp/recruits" data-ja="求人情報" data-pt="Vagas" data-en="Jobs" data-es="Empleos">求人情報</a><span class="nsep">｜</span><a href="company" data-ja="会社概要" data-pt="Empresa" data-en="Company" data-es="Empresa">会社概要</a></div></div>
+
+<div class="hero">
+  <img class="hero-banner" src="images/home/hero-banner.jpg" alt="ときを活かし、時代をクリエイトする">
+  <div class="hero-in">
+    <div>
+      <h1 data-ja="東海エリア8市で、&lt;span class=&quot;gold&quot;&gt;お仕事募集中！&lt;/span&gt;" data-pt="Vagas abertas em &lt;span class=&quot;gold&quot;&gt;8 cidades&lt;/span&gt; da região Tokai!" data-en="Now hiring in &lt;span class=&quot;gold&quot;&gt;8 cities&lt;/span&gt; in the Tokai area!" data-es="¡Estamos contratando en &lt;span class=&quot;gold&quot;&gt;8 ciudades&lt;/span&gt; de la región de Tokai!">東海エリア8市で、<span class="gold">お仕事募集中！</span></h1>
+      <p class="cities">豊橋市・豊川市・湖西市・浜松市・磐田市・新城市・蒲郡市・掛川市</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="#jobs" data-ja="求人情報を見る" data-pt="Ver as vagas" data-en="See the jobs" data-es="Ver los empleos">求人情報を見る</a>
+        <a class="btn btn-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで相談する" data-pt="Contatar no LINE" data-en="Chat on LINE" data-es="Contactar por LINE">LINEで相談する</a>
+        <a class="btn btn-wa" href="https://wa.me/819029456034">WhatsApp</a>
+        <a class="btn btn-ghost" href="tel:0532331200">電話 0532-33-1200</a>
+      </div>
+    </div>
+    <div class="vid-wrap">
+      <div class="vid-frame">
+        <video src="images/home/video-presentacion.mp4" poster="images/home/video-poster.jpg" autoplay muted loop playsinline controls preload="metadata" aria-label="会社紹介動画"></video>
+      </div>
+      <p class="vid-cap" data-ja="▶ 動画で見る会社紹介" data-pt="▶ Vídeo: conheça a TIEMPO" data-en="▶ Watch: meet TIEMPO" data-es="▶ Video: conoce a TIEMPO">▶ 動画で見る会社紹介</p>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="intro">
+    <b>株式会社TIEMPO</b>は、<b>愛知・静岡の東海エリア</b>を中心に人材派遣・人材紹介サービスをご提供しています。長年の経験で培ってきた人材育成のノウハウを駆使し、お客様のご要望に柔軟にお応えいたします。
+  </div>
+</section>
+
+<section>
+  <div class="diff">
+    <h2 data-ja="TIEMPOのここが違う" data-pt="Os diferenciais da TIEMPO" data-en="What makes TIEMPO different" data-es="Lo que hace diferente a TIEMPO">TIEMPOのここが違う</h2>
+    <ul>
+      <li data-ja="求人は&lt;b&gt;写真と時給つき&lt;/b&gt;で、このページにそのまま掲載" data-pt="Vagas com &lt;b&gt;foto e salário&lt;/b&gt; nesta página" data-en="Every job is posted right here on this page, &lt;b&gt;with a photo and the hourly wage&lt;/b&gt;" data-es="Los empleos están publicados en esta misma página, &lt;b&gt;con foto y sueldo por hora&lt;/b&gt;">求人は<b>写真と時給つき</b>で、このページにそのまま掲載</li>
+      <li data-ja="電話だけでなく &lt;b&gt;LINE・WhatsApp&lt;/b&gt; でも相談・応募OK" data-pt="Atendimento também por &lt;b&gt;LINE e WhatsApp&lt;/b&gt;" data-en="Not only by phone — you can also ask and apply via &lt;b&gt;LINE and WhatsApp&lt;/b&gt;" data-es="No solo por teléfono: también puedes contactar y postularte por &lt;b&gt;LINE y WhatsApp&lt;/b&gt;">電話だけでなく <b>LINE・WhatsApp</b> でも相談・応募OK</li>
+      <li data-ja="担当者は&lt;b&gt;名前と直通番号&lt;/b&gt;を公開 ― すぐつながります" data-pt="Recrutadores com &lt;b&gt;nome e número direto&lt;/b&gt;" data-en="Our recruiters show their &lt;b&gt;names and direct numbers&lt;/b&gt; — you reach them right away" data-es="Los reclutadores publican su &lt;b&gt;nombre y número directo&lt;/b&gt; ― te comunicas al instante">担当者は<b>名前と直通番号</b>を公開 ― すぐつながります</li>
+      <li data-ja="いま &lt;b&gt;6件の求人&lt;/b&gt;を募集中 ― 入社祝い金つきの求人も" data-pt="&lt;b&gt;6 vagas&lt;/b&gt; abertas agora, algumas com bônus de admissão" data-en="&lt;b&gt;6 jobs&lt;/b&gt; open right now — some with a hiring bonus" data-es="&lt;b&gt;6 empleos&lt;/b&gt; disponibles ahora ― algunos con bono de ingreso">いま <b>6件の求人</b>を募集中 ― 入社祝い金つきの求人も</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec" data-ja="対応エリア" data-pt="Área de atendimento" data-en="Areas we cover" data-es="Zona de atención">対応エリア</h2>
+  <p class="sec-en">SERVICE AREA</p>
+  <div class="chips">
+    <span class="chip">豊橋市</span><span class="chip">豊川市</span><span class="chip">湖西市</span><span class="chip">浜松市</span>
+    <span class="chip">磐田市</span><span class="chip">新城市</span><span class="chip">蒲郡市</span><span class="chip">掛川市</span>
+    <span class="chip alt" data-ja="愛知・静岡の東海エリア" data-pt="Região de Tokai — Aichi e Shizuoka" data-en="Tokai area — Aichi and Shizuoka" data-es="Región de Tokai — Aichi y Shizuoka">愛知・静岡の東海エリア</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec" data-ja="あなたに合った入口から" data-pt="Por onde começar" data-en="Where to start" data-es="Por dónde empezar">あなたに合った入口から</h2>
+  <p class="sec-en">FOR YOU</p>
+  <div class="duo">
+    <div class="card">
+      <p class="en">JOB HUNTING</p>
+      <h3 data-ja="お仕事をお探しの方" data-pt="Para quem procura trabalho" data-en="For job seekers" data-es="Para quienes buscan empleo">お仕事をお探しの方</h3>
+      <p data-ja="製造業はもちろん、軽作業やオフィスワークなど。あなたに合った仕事を探すことが出来ます。また、面接なども応じておりますので、お気軽にご相談ください。" data-pt="Da manufatura a trabalhos leves e de escritório: ajudamos você a encontrar o trabalho ideal para o seu perfil. Também realizamos entrevistas — contate-nos sem compromisso." data-en="From manufacturing to light work and office jobs — we can help you find the job that fits you. We also hold interviews, so feel free to talk to us anytime." data-es="Desde la manufactura hasta trabajos ligeros y de oficina: te ayudamos a encontrar el empleo ideal para tu perfil. También realizamos entrevistas — contáctanos sin compromiso.">製造業はもちろん、軽作業やオフィスワークなど。あなたに合った仕事を探すことが出来ます。また、面接なども応じておりますので、お気軽にご相談ください。</p>
+      <a class="more" href="#jobs" data-ja="求人一覧へ →" data-pt="Ver as vagas →" data-en="Go to the job list →" data-es="Ir a la lista de empleos →">求人一覧へ →</a>
+    </div>
+    <div class="card">
+      <p class="en">RECRUITER</p>
+      <h3 data-ja="人材をお探しの企業様" data-pt="Para empresas" data-en="For companies looking for staff" data-es="Para empresas que buscan personal">人材をお探しの企業様</h3>
+      <p data-ja="突発的な業務や想定を上回る繁忙に対して、必要となった即戦力のある人材を迅速に確保いたします。長年の経験で培ってきた人材育成のノウハウを駆使し、お客様のご要望に柔軟にお応えいたします。" data-pt="Para demandas repentinas ou picos acima do previsto, asseguramos rapidamente pessoal pronto para trabalhar. Com o know-how em formação de pessoas acumulado em anos de experiência, respondemos com flexibilidade às necessidades da sua empresa." data-en="For sudden work or busier-than-expected periods, we quickly secure ready-to-work staff. Using the people-training know-how built over years of experience, we respond flexibly to your company's needs." data-es="Ante trabajos repentinos o picos superiores a lo previsto, aseguramos rápidamente personal listo para trabajar. Con la experiencia en formación de personal acumulada durante años, respondemos con flexibilidad a las necesidades de su empresa.">突発的な業務や想定を上回る繁忙に対して、必要となった即戦力のある人材を迅速に確保いたします。長年の経験で培ってきた人材育成のノウハウを駆使し、お客様のご要望に柔軟にお応えいたします。</p>
+      <a class="more" href="tel:0532331200" data-ja="お問い合わせ →" data-pt="Contate-nos →" data-en="Contact us →" data-es="Contáctanos →">お問い合わせ →</a>
+    </div>
+  </div>
+</section>
+
+<section id="jobs">
+  <h2 class="sec" data-ja="募集中の求人" data-pt="Vagas abertas" data-en="Open positions" data-es="Empleos disponibles">募集中の求人</h2>
+  <p class="sec-en">NOW HIRING ― 6 JOBS</p>
+  <div class="jobs">
+    <div class="job">
+      <img data-flyer="kosai-arai" data-img-pt="images/home/kosai-arai-pt.jpg" data-img-en="images/home/kosai-arai-en.jpg" data-img-es="images/home/kosai-arai-es.jpg" src="images/home/kosai-arai-ja.jpg" alt="湖西市・新居町 検査の求人">
+      <div class="body">
+        <div class="city" data-ja="湖西市・新居町 — 検査（ケンサ）" data-pt="湖西市・新居町 — Inspeção de peças" data-en="湖西市・新居町 — Parts inspection" data-es="湖西市・新居町 — Inspección de piezas">湖西市・新居町 — 検査（ケンサ）</div>
+        <div class="price">¥1,180<small data-ja=" /時" data-pt=" /hora" data-en=" /hour" data-es=" /hora"> /時</small></div>
+        <div class="tags"><span class="tag" data-ja="昼勤のみ 7:00–16:00" data-pt="Só turno diurno 7:00–16:00" data-en="Day shift only 7:00–16:00" data-es="Solo turno diurno 7:00–16:00">昼勤のみ 7:00–16:00</span><span class="tag" data-ja="女性活躍中" data-pt="Muitas mulheres na equipe" data-en="Many women on the team" data-es="Muchas mujeres en el equipo">女性活躍中</span><span class="tag" data-ja="残業あり" data-pt="Com horas extras" data-en="Overtime available" data-es="Con horas extra">残業あり</span><span class="tag" data-ja="前借り相談OK" data-pt="Adiantamento salarial — consulte-nos" data-en="Salary advance — just ask" data-es="Adelanto de salario — contáctanos">前借り相談OK</span></div>
+        <p data-ja="自動車用プラスチック部品の検査。軽作業で未経験歓迎。女性スタッフが多く活躍している職場です。" data-pt="Inspeção de peças plásticas para automóveis. Trabalho leve — experiência não é necessária. Vaga predominantemente feminina." data-en="Inspection of plastic parts for automobiles. Light work — no experience necessary. Predominantly female workplace." data-es="Inspección de piezas plásticas para automóviles. Trabajo ligero — no se necesita experiencia. Puesto predominantemente femenino.">自動車用プラスチック部品の検査。軽作業で未経験歓迎。女性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="job">
+      <img data-flyer="toyokawa" data-img-pt="images/home/toyokawa-pt.jpg" data-img-en="images/home/toyokawa-en.jpg" data-img-es="images/home/toyokawa-es.jpg" src="images/home/toyokawa-ja.jpg" alt="豊川市 顕微鏡検査の求人">
+      <div class="body">
+        <div class="city" data-ja="豊川市 — 顕微鏡検査" data-pt="豊川市 — Inspeção com microscópio" data-en="豊川市 — Microscope inspection" data-es="豊川市 — Inspección con microscopio">豊川市 — 顕微鏡検査</div>
+        <div class="price">¥1,200<small data-ja=" /時" data-pt=" /hora" data-en=" /hour" data-es=" /hora"> /時</small></div>
+        <div class="tags"><span class="tag">8:00–17:00</span><span class="tag" data-ja="座り仕事" data-pt="Trabalho sentado" data-en="Seated work" data-es="Trabajo sentado">座り仕事</span><span class="tag" data-ja="入社祝い金 ¥50,000" data-pt="Bônus de admissão ¥50,000" data-en="Hiring bonus ¥50,000" data-es="Bono de ingreso ¥50,000">入社祝い金 ¥50,000</span><span class="tag" data-ja="前借り相談OK" data-pt="Adiantamento salarial — consulte-nos" data-en="Salary advance — just ask" data-es="Adelanto de salario — contáctanos">前借り相談OK</span></div>
+        <p data-ja="顕微鏡を使った部品の検査。落ち着いた環境の座り仕事です。女性スタッフが多く活躍している職場です。" data-pt="Inspeção de peças com microscópio. Trabalho sentado, em um ambiente tranquilo. Vaga predominantemente feminina." data-en="Inspecting parts using a microscope. Seated work in a calm environment. Predominantly female workplace." data-es="Inspección de piezas con microscopio. Trabajo sentado, en un ambiente tranquilo. Puesto predominantemente femenino.">顕微鏡を使った部品の検査。落ち着いた環境の座り仕事です。女性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="job">
+      <img data-flyer="kosai-almacen" data-img-pt="images/home/kosai-almacen-pt.jpg" data-img-en="images/home/kosai-almacen-en.jpg" data-img-es="images/home/kosai-almacen-es.jpg" src="images/home/kosai-almacen-ja.jpg" alt="湖西市 自動車部品倉庫の求人">
+      <div class="body">
+        <div class="city" data-ja="湖西市 — 自動車部品の倉庫" data-pt="湖西市 — Depósito de peças automotivas" data-en="湖西市 — Auto parts warehouse" data-es="湖西市 — Almacén de repuestos de automóviles">湖西市 — 自動車部品の倉庫</div>
+        <div class="price">¥1,450<small data-ja=" /時" data-pt=" /hora" data-en=" /hour" data-es=" /hora"> /時</small></div>
+        <div class="tags"><span class="tag">8:00–17:00</span><span class="tag" data-ja="仕分け・ピッキング" data-pt="Separação e picking" data-en="Sorting and picking" data-es="Separación y picking">仕分け・ピッキング</span><span class="tag" data-ja="入社祝い金 ¥50,000" data-pt="Bônus de admissão ¥50,000" data-en="Hiring bonus ¥50,000" data-es="Bono de ingreso ¥50,000">入社祝い金 ¥50,000</span><span class="tag" data-ja="前借り相談OK" data-pt="Adiantamento salarial — consulte-nos" data-en="Salary advance — just ask" data-es="Adelanto de salario — contáctanos">前借り相談OK</span></div>
+        <p data-ja="自動車部品の仕分け・ピッキング作業。土曜出勤の場合あり。男性スタッフが多く活躍している職場です。" data-pt="Separação e picking de peças automotivas. Pode haver trabalho aos sábados. Vaga predominantemente masculina." data-en="Sorting and picking of auto parts. Saturday work may be required. Predominantly male workplace." data-es="Separación y picking de repuestos de automóviles. Puede haber trabajo los sábados. Puesto predominantemente masculino.">自動車部品の仕分け・ピッキング作業。土曜出勤の場合あり。男性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="job">
+      <img data-flyer="hamamatsu-terawaki" data-img-pt="images/home/hamamatsu-terawaki-pt.jpg" data-img-en="images/home/hamamatsu-terawaki-en.jpg" data-img-es="images/home/hamamatsu-terawaki-es.jpg" src="images/home/hamamatsu-terawaki-ja.jpg" alt="浜松市・寺脇町 部品の準備の求人">
+      <div class="body">
+        <div class="city" data-ja="浜松市・寺脇町 — 部品の準備" data-pt="浜松市・寺脇町 — Preparação de peças" data-en="浜松市・寺脇町 — Parts preparation" data-es="浜松市・寺脇町 — Preparación de piezas">浜松市・寺脇町 — 部品の準備</div>
+        <div class="price">¥1,330<small data-ja=" /時（土日 ¥1,430）" data-pt=" /hora (sáb. e dom. ¥1,430)" data-en=" /hour (Sat–Sun ¥1,430)" data-es=" /hora (sáb. y dom. ¥1,430)"> /時（土日 ¥1,430）</small></div>
+        <div class="tags"><span class="tag" data-ja="昼勤のみ" data-pt="Só turno diurno" data-en="Day shift only" data-es="Solo turno diurno">昼勤のみ</span><span class="tag" data-ja="セット外し" data-pt="Retirada de peças do conjunto" data-en="Parts set removal" data-es="Retiro de piezas del conjunto">セット外し</span><span class="tag" data-ja="週休2日制（シフト）" data-pt="2 folgas por semana (por turnos)" data-en="2 days off per week (shift work)" data-es="2 días libres por semana (por turnos)">週休2日制（シフト）</span><span class="tag" data-ja="前借り相談OK" data-pt="Adiantamento salarial — consulte-nos" data-en="Salary advance — just ask" data-es="Adelanto de salario — contáctanos">前借り相談OK</span></div>
+        <p data-ja="熱処理後の部品の準備と関連作業。男性スタッフが多く活躍している職場です。" data-pt="Preparação de peças após o tratamento térmico e tarefas relacionadas. Vaga predominantemente masculina." data-en="Preparation of parts after heat treatment and related tasks. Predominantly male workplace." data-es="Preparación de piezas tras el tratamiento térmico y tareas relacionadas. Puesto predominantemente masculino.">熱処理後の部品の準備と関連作業。男性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="job">
+      <img data-flyer="kosai-torno" data-img-pt="images/home/kosai-torno-pt.jpg" data-img-en="images/home/kosai-torno-en.jpg" data-img-es="images/home/kosai-torno-es.jpg" src="images/home/kosai-torno-ja.jpg" alt="湖西市 NC旋盤オペレーターの求人">
+      <div class="body">
+        <div class="city" data-ja="湖西市 — NC旋盤オペレーター" data-pt="湖西市 — Operador de torno (NC)" data-en="湖西市 — NC lathe operator" data-es="湖西市 — Operador de torno (NC)">湖西市 — NC旋盤オペレーター</div>
+        <div class="price">¥1,400<small data-ja=" /時" data-pt=" /hora" data-en=" /hour" data-es=" /hora"> /時</small></div>
+        <div class="tags"><span class="tag" data-ja="2交代制" data-pt="2 turnos alternados" data-en="2-shift rotation" data-es="2 turnos rotativos">2交代制</span><span class="tag" data-ja="夜勤手当 ¥500/1夜" data-pt="Adicional noturno ¥500/noite" data-en="Night shift allowance ¥500/night" data-es="Plus nocturno ¥500/cada noche">夜勤手当 ¥500/1夜</span><span class="tag" data-ja="深夜割増25%" data-pt="Adicional noturno de 25%" data-en="25% late-night premium" data-es="Recargo nocturno del 25%">深夜割増25%</span></div>
+        <p data-ja="NC旋盤オペレーターのお仕事です。交代制で、1週間は昼勤、1週間は夜勤です。男性スタッフが多く活躍している職場です。" data-pt="Trabalho como operador de torno (NC). Turnos alternados: uma semana de dia, uma semana de noite. Vaga predominantemente masculina." data-en="Work as an NC lathe operator. Alternating shifts: one week on days, one week on nights. Predominantly male workplace." data-es="Trabajo como operador de torno (NC). Turno alternado: una semana de día, una semana de noche. Puesto predominantemente masculino.">NC旋盤オペレーターのお仕事です。交代制で、1週間は昼勤、1週間は夜勤です。男性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="job">
+      <img data-flyer="hamamatsu-nippashi" data-img-pt="images/home/hamamatsu-nippashi-pt.jpg" data-img-en="images/home/hamamatsu-nippashi-en.jpg" data-img-es="images/home/hamamatsu-nippashi-es.jpg" src="images/home/hamamatsu-nippashi-ja.jpg" alt="浜松市・新橋町 小さな部品掛けの求人">
+      <div class="body">
+        <div class="city" data-ja="浜松市・新橋町 — 小さな部品掛け" data-pt="浜松市・新橋町 — Pendurar peças pequenas" data-en="浜松市・新橋町 — Hanging small parts" data-es="浜松市・新橋町 — Colgar piezas pequeñas">浜松市・新橋町 — 小さな部品掛け</div>
+        <div class="price">¥1,300<small data-ja=" /時" data-pt=" /hora" data-en=" /hour" data-es=" /hora"> /時</small></div>
+        <div class="tags"><span class="tag" data-ja="昼勤のみ 8:00–17:00" data-pt="Só turno diurno 8:00–17:00" data-en="Day shift only 8:00–17:00" data-es="Solo turno diurno 8:00–17:00">昼勤のみ 8:00–17:00</span><span class="tag" data-ja="高塚駅近く" data-pt="Perto da estação de Takatsuka" data-en="Near Takatsuka Station" data-es="Cerca de la estación de Takatsuka">高塚駅近く</span></div>
+        <p data-ja="小さな部品を掛ける軽作業です。男性スタッフが多く活躍している職場です。" data-pt="Trabalho leve pendurando peças pequenas. Vaga predominantemente masculina." data-en="Light work hanging small parts. Predominantly male workplace." data-es="Trabajo ligero colgando piezas pequeñas. Puesto predominantemente masculino.">小さな部品を掛ける軽作業です。男性スタッフが多く活躍している職場です。</p>
+        <div class="acts"><a class="a-call" href="tel:0532331200" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a><a class="a-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで応募" data-pt="Candidatar-se pelo LINE" data-en="Apply via LINE" data-es="Postularse por LINE">LINEで応募</a><a class="a-wa" href="https://wa.me/819029456034">WhatsApp</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="staff">
+  <h2 class="sec" data-ja="担当者に直接つながります" data-pt="Contate a equipe diretamente" data-en="Talk directly with a recruiter" data-es="Habla directo con un reclutador">担当者に直接つながります</h2>
+  <p class="sec-en">YOUR RECRUITERS</p>
+  <div class="staff">
+    <div class="person">
+      <p class="role">RECRUITER</p>
+      <h3>Akemi Arakaki</h3>
+      <p class="num">070-1617-2010</p>
+      <div class="acts">
+        <a class="a-call" href="tel:07016172010" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a>
+        <a class="a-line" href="https://line.me/R/ti/p/@546ctymh">LINE</a>
+        <a class="btn-wa" href="https://wa.me/819029456034">WhatsApp</a>
+      </div>
+    </div>
+    <div class="person">
+      <p class="role">RECRUITER</p>
+      <h3>Emanuelle Miazaki</h3>
+      <p class="num">080-3288-4614</p>
+      <div class="acts">
+        <a class="a-call" href="tel:08032884614" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a>
+        <a class="a-line" href="https://line.me/R/ti/p/@546ctymh">LINE</a>
+        <a class="btn-wa" href="https://wa.me/819029456034">WhatsApp</a>
+      </div>
+    </div>
+    <div class="person">
+      <p class="role">RECRUITER</p>
+      <h3>López</h3>
+      <p class="num">090-2945-6034</p>
+      <div class="acts">
+        <a class="a-call" href="tel:09029456034" data-ja="電話する" data-pt="Ligar" data-en="Call" data-es="Llamar">電話する</a>
+        <a class="a-line" href="https://line.me/R/ti/p/@546ctymh">LINE</a>
+        <a class="btn-wa" href="https://wa.me/819029456034">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec">代表挨拶</h2>
+  <p class="sec-en">GREETINGS</p>
+  <div class="greet">
+    <h3>「TIEMPO」は「時間」という意味です</h3>
+    <p>“TIEMPO” これは「時間」という意味です。「今」という時間を有効に活かし、そして、人と人との貴重な出会いを大切に、日々情熱を持って取り組んでおります。</p>
+  </div>
+</section>
+
+<section id="company">
+  <div class="contact-band">
+    <p style="font-weight:700;color:#5a7186;" data-ja="お仕事のご相談・お問い合わせ" data-pt="Dúvidas e contato" data-en="Job questions and contact" data-es="Consultas y contacto">お仕事のご相談・お問い合わせ</p>
+    <p class="tel-big">0532-33-1200</p>
+    <p data-ja="受付：月–金 9:00–17:00 ｜ MAIL: info@tiempo-at.jp ｜ FAX: 0532-33-1258" data-pt="Atendimento: seg.–sex. 9:00–17:00 ｜ MAIL: info@tiempo-at.jp ｜ FAX: 0532-33-1258" data-en="Open: Mon–Fri 9:00–17:00 ｜ MAIL: info@tiempo-at.jp ｜ FAX: 0532-33-1258" data-es="Atención: lun.–vie. 9:00–17:00 ｜ MAIL: info@tiempo-at.jp ｜ FAX: 0532-33-1258">受付：月–金 9:00–17:00 ｜ MAIL: info@tiempo-at.jp ｜ FAX: 0532-33-1258</p>
+    <p style="margin-top:6px;">〒441-8019 愛知県豊橋市花田町字小松174 NARA BILL 2F</p>
+    <div class="cta-row">
+      <a class="btn btn-line" href="https://line.me/R/ti/p/@546ctymh" data-ja="LINEで相談する（@546ctymh）" data-pt="Contatar no LINE (@546ctymh)" data-en="Chat on LINE (@546ctymh)" data-es="Contactar por LINE (@546ctymh)">LINEで相談する（@546ctymh）</a>
+      <a class="btn btn-wa" href="https://wa.me/819029456034" data-ja="WhatsAppで相談する" data-pt="Contatar no WhatsApp" data-en="Chat on WhatsApp" data-es="Contactar por WhatsApp">WhatsAppで相談する</a>
+    </div>
+  </div>
+</section>
+
+
+<section id="privacy">
+  <h2 class="sec" data-ja="プライバシーポリシー" data-pt="Política de privacidade" data-en="Privacy Policy" data-es="Política de privacidad">プライバシーポリシー</h2>
+  <p class="sec-en">PRIVACY POLICY</p>
+  <div class="pbox">
+    <p>株式会社TIEMPO（以下「当社」といいます）は、個人情報の重要性を認識し、以下の方針に基づき適切に取り扱います。</p>
+    <h3>1. 個人情報の利用目的</h3>
+    <p>当社は、求人への応募、職業紹介および労働者派遣に関する業務において、お仕事の紹介・ご連絡、派遣・雇用管理など、正当な業務の範囲内で個人情報を利用します。</p>
+    <h3>2. 第三者への提供</h3>
+    <p>派遣先・紹介先の企業へは、ご本人の同意を得たうえで、お仕事の紹介に必要な範囲に限り個人情報を提供することがあります。法令に基づく場合を除き、同意なく第三者に提供することはありません。</p>
+    <h3>3. 安全管理</h3>
+    <p>当社は、個人情報の漏えい、滅失または毀損を防ぐため、適切な安全管理措置を講じ、継続的な改善に努めます。</p>
+    <h3>4. 開示・訂正・削除等の請求</h3>
+    <p>ご本人からご自身の個人情報の開示、訂正、利用停止または削除のご請求があった場合は、法令に基づき適切に対応いたします。</p>
+    <h3>5. お問い合わせ窓口</h3>
+    <p>株式会社TIEMPO　電話：0532-33-1200　メール：info@tiempo-at.jp</p>
+  </div>
+</section>
+
+<footer class="site">
+  <div style="text-align:center; color:#fff; font-family:'Hiragino Mincho ProN','Yu Mincho',serif; font-size:15px; letter-spacing:2px; margin-bottom:10px;">ときを活かし、時代をクリエイトする</div>
+      <img class="foot-logo" src="images/home/logo-tiempo-blanco.png" alt="TIEMPO">
+  <p class="foot-nav"><a href="./" data-ja="ホーム" data-pt="Início" data-en="Home" data-es="Inicio">ホーム</a><span class="sep">｜</span><a href="business" data-ja="事業内容" data-pt="Negócios" data-en="Business" data-es="Negocios">事業内容</a><span class="sep">｜</span><a href="https://empleos.tiempo-at.jp/recruits" data-ja="求人情報" data-pt="Vagas" data-en="Jobs" data-es="Empleos">求人情報</a><span class="sep">｜</span><a href="company" data-ja="会社概要" data-pt="Empresa" data-en="Company" data-es="Empresa">会社概要</a></p>
+  <p class="foot-priv"><a href="#privacy" data-ja="プライバシーポリシー" data-pt="Política de privacidade" data-en="Privacy Policy" data-es="Política de privacidad">プライバシーポリシー</a></p>
+  <p style="margin-top:8px;">株式会社TIEMPO（ティエンポ）｜ 労働者派遣事業 派23-302469 ｜ 有料職業紹介事業 23-ユ301677</p>
+  <p class="cr">2026 株式会社TIEMPO All Rights Reserved.</p>
+</footer>
+
+<div class="fixed-bar">
+  <a class="fb-call" href="tel:0532331200">電話する</a>
+  <a class="fb-line" href="https://line.me/R/ti/p/@546ctymh">LINE</a>
+  <a class="fb-wa" href="https://wa.me/819029456034">WhatsApp</a>
+</div>
+
+
+
+<script>
+function setLang(l){
+  document.querySelectorAll('[data-ja]').forEach(function(el){
+    var v = el.getAttribute('data-' + l);
+    if (v) el.innerHTML = v;
+  });
+  document.querySelectorAll('img[data-img-pt]').forEach(function(img){
+    if (!img.getAttribute('data-img-ja')) img.setAttribute('data-img-ja', img.getAttribute('src'));
+    var src = img.getAttribute('data-img-' + l);
+    if (src) img.src = src;
+  });
+  document.getElementById('btn-ja').classList.toggle('on', l === 'ja');
+  document.getElementById('btn-pt').classList.toggle('on', l === 'pt');
+  document.getElementById('btn-en').classList.toggle('on', l === 'en');
+  document.getElementById('btn-es').classList.toggle('on', l === 'es');
+  document.documentElement.lang = l;
+}
+</script>
+
+</body>
+</html>

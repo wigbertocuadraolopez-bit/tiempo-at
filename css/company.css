@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+p.about_tiempo{line-height: 150%; margin-bottom:30px;}
+
+
+.greeting, .history{
+	margin-top:50px;
+}
+.greeting  .inner{
+	position:relative;
+}
+.greeting  .inner .title{
+	/*position:absolute;*/
+	top:0px;
+}
+.greeting .wrapper{
+	display:flex;
+}
+.greeting .body{
+	/*margin-top:80px;*/
+	width:45%;
+	padding-right:10px;
+	position:relative;
+}
+.greeting .body .content{
+	font-size:14px;
+	line-height:24px;
+}
+.greeting .body .ceo{
+	font-size:12px;
+	line-height:20px;
+	text-align:right;
+	margin-top:30px;
+	margin-bottom:0px;
+}
+.greeting .img-box{
+	width:60%;
+	max-width:525px;
+
+}
+.greeting .body .ceo p{
+	display:inline-block;
+	margin:auto 0 0 auto;
+	text-align:left;
+}
+
+.history{
+	background:#CFE0F2;
+	margin-bottom:50px;
+}
+.history .inner{
+	padding-top:30px;
+	padding-bottom:30px;
+	margin:30px auto 20px auto;
+}
+.history ul{
+	margin:20px auto;
+}
+.history li{
+	display:flex;
+	margin:10px 0;
+}
+
+.history .year{
+	width:20%;
+	line-height:1.4em;
+}
+.history .done{
+	width:80%;
+	line-height:1.4em;
+}
+.outline .desc{
+	line-height:24px;
+	margin-bottom:30px;
+}
+.outline .body{
+	margin:20px auto;
+}
+.outline table{
+	width:100%;
+	/*word-break: break-all;*/
+	margin-bottom:30px;
+}
+.outline th,.outline td{
+	padding:10px;
+	border-bottom:1px solid #808080;
+}
+.outline tr{
+	width:100%;
+}
+.outline tr:last-child th, .outline tr:last-child td{
+	border-bottom:none;
+}
+.outline th{
+	width:18%;
+	text-align:left;
+}
+.outline td{
+	width:80%;
+	text-align:left;
+	line-height:24px;
+}
+.outline .accessmap{
+	width:100%;
+	max-widhth:1000px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+iframe{
+	height:500px;
+}
+@media screen and (max-width: 896px){
+    .greeting,.history{
+        margin-top:30px;
+    }
+    .greeting  .inner{
+        position:static;
+    }
+    .greeting  .inner .title{
+        position:static;
+      
+    }
+    .greeting .wrapper{
+        flex-flow: column-reverse;
+    }
+    .greeting .body{
+        margin-top:20px;
+        width:100%;
+        padding-right:0px;
+        position:relative;
+    }
+    .greeting .body .content{
+        font-size:12px;
+        line-height:20px;
+    }
+    .greeting .body .ceo{
+        font-size:12px;
+        line-height:20px;
+        margin-top:30px;
+    }
+    .greeting .img-box{
+        width:100%;
+		margin:0 auto;
+
+    }
+
+	.history p{
+		line-height:20px;
+	}
+	.history .year{
+        width:30%;
+    }
+    .history .done{
+        width:70%;
+    }
+	.outline th{
+        width:30%;
+    }
+    .outline td{
+        width:70%;
+    }
+    .outline .accessmap{
+        width:100%;
+        max-widhth:600px;
+        margin:0 auto;
+    }
+	iframe{
+		height:300px;
+	}
+}

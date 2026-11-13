@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+.bussiness, .twoinone{
+	margin-top:50px;
+}
+.bussiness  .inner{
+	position:relative;
+}
+.bussiness  .inner .title{
+	position:absolute;
+	top:0px;
+}
+main section .title h2{
+	line-height:36px;
+}
+.bussiness  .inner .pt{
+	top:-24px;
+}
+.bussiness .wrapper{
+	display:flex;
+}
+.bussiness .body{
+	margin-top:80px;
+	width:45%;
+	padding-right:20px;
+	position:relative;
+}
+.bussiness .body .content{
+	font-size:14px;
+	line-height:24px;
+	/*word-break: break-all;*/
+}
+.sub-item h4{
+	font-weight:bold;
+	font-size:20px;
+	line-height:24px;
+	
+}
+.sub-item{
+	margin-bottom:20px;
+	line-height:24px;
+}
+
+.bussiness .img-box{
+	width:60%;
+	max-width:525px;
+
+}
+.twoinone, .bussiness.welfare{
+	background:#CFE0F2;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+.twoinone .wrapper, .bussiness.system .wrapper{
+	display:flex;
+	justify-content: space-between;
+}
+.bussiness.system:nth-child(2n) .wrapper{
+	flex-flow:row-reverse;
+}
+
+.bussiness.system:nth-child(2n) .wrapper .img-box{
+	margin-top:80px;
+}
+.twoinone .subsection{
+	width:45%;
+}
+.twoinone .content, .twoinone .wrapper{
+	word-break: break-all;
+}
+
+.bussiness.system .img-box{
+	width:50%;
+	max-width:440px;
+}
+.bussiness .welfare-services{
+	margin-top:100px;
+}
+.bussiness .welfare-services.welfare-services2{
+	margin-top:50px;
+}
+.bussiness .welfare-services li{
+	margin:30px 0;
+}
+.bussiness .welfare-services h4{
+	font-size:20px;
+}
+.bussiness .welfare-services .number{
+	background:#174C92;
+	color:#FFFFFF;
+	border-radius:50%;
+	width:36px;
+	height:36px;
+	line-height:36px;
+	display:inline-block;
+	text-align: center;
+	font-weight:bold;
+	margin-bottom:14px;
+}
+.bussiness .welfare-services .number_a{
+	background:#174C92;
+	color:#FFFFFF;
+	border-radius:50%;
+	width:36px;
+	height:36px;
+	line-height:36px;
+	display:inline-block;
+	text-align: center;
+	font-weight:bold;
+	margin-bottom:14px;
+}
+.bussiness .welfare-services .description{
+	word-break: break-all;
+}
+
+.welfare-type .title p{
+	margin:10px 0;
+	line-height:24px;
+}
+.welfare-services p{
+	line-height:24px;
+}
+.welfare-services2 .description{
+	margin-top:6px;
+}
+main section.welfare-type .title h3{
+	font-size: 26px;
+    padding: 0 0 0px 0;
+    font-weight: bold;
+	color:#000;
+}
+@media screen and (max-width: 896px){
+	.bussiness{
+        margin-top:30px;
+    }
+    .bussiness  .inner{
+        position:static;
+    }
+    .bussiness  .inner .title{
+        position:static;
+      
+    }
+    .bussiness .wrapper{
+        flex-flow: column-reverse;
+    }
+    .bussiness .body{
+        margin-top:20px;
+        width:100%;
+        padding-right:0px;
+        position:relative;
+    }
+    .bussiness .body .content{
+        font-size:12px;
+        line-height:20px;
+    }
+    .bussiness .body .ceo{
+        font-size:12px;
+        line-height:20px;
+        margin-top:30px;
+    }
+    .bussiness .img-box{
+        width:100%;
+		margin:0 auto;
+
+    }
+
+	.twoinone{
+
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    .twoinone .wrapper{
+        flex-flow:column;
+    }
+    .twoinone .subsection{
+        width:100%;
+    }
+	.twoinone .subsection:first-child{
+		margin-bottom:30px;
+	}
+
+	.bussiness.system:nth-child(2n) .wrapper{
+		flex-flow:column;
+	}
+    .bussiness.system .img-box{
+        width:60%;
+    }
+
+}
