@@ -45,7 +45,7 @@ p.about_tiempo{line-height: 150%; margin-bottom:30px;}
 }
 
 .history{
-	background:#CFE0F2;
+	background:#174C92;
 	margin-bottom:50px;
 }
 .history .inner{
@@ -168,3 +168,5 @@ iframe{
 		height:300px;
 	}
 }
+.history{color:#fff;}
+main section.history .title h3{color:#fff;}

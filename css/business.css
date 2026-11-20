@@ -47,7 +47,7 @@ main section .title h2{
 
 }
 .twoinone, .bussiness.welfare{
-	background:#CFE0F2;
+	background:#174C92;
 	padding-top:30px;
 	padding-bottom:30px;
 }
@@ -187,3 +187,7 @@ main section.welfare-type .title h3{
     }
 
 }
+.twoinone, .bussiness.welfare{color:#fff;}
+main section.twoinone .title h3, main section.bussiness.welfare .title h3{color:#fff;}
+.twoinone a, .bussiness.welfare a{color:#fff;}
+.bussiness .welfare-services .number, .bussiness .welfare-services .number_a{background:#fff;color:#174C92;}

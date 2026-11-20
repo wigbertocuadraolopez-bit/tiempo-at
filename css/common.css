@@ -537,7 +537,7 @@ main section .title h3{
 }
 /* inquire */
 .inquire{
-	background:#CFE0F2;
+	background:#174C92;
 	margin-top:100px;
 	margin-bottom:50px;
 	padding:30px 0;
@@ -721,3 +721,5 @@ main section .title h3{
       width:100%;
   }	
 }
+.inquire{color:#fff;}
+.inquire a{color:#fff;}
