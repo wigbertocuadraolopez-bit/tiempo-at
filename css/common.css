@@ -41,7 +41,6 @@ a:hover{
 /*Header*/
 header{
 	background-color:#174C92;
-	opacity:0.85;
 	width:100%;
 	height:100px;
 	position: fixed;
@@ -224,7 +223,6 @@ header .inner .wrapper{
 		z-index: 200;
 		overflow-y: auto; 
 		background-color:#174C92;
-		opacity:0.85;
 	}
 	.nav-open .box-a .container nav {
 		left:-10px;
@@ -341,7 +339,6 @@ footer .blue-band{
 	width:100%;
 	height:140px;
 	background-color:#174C92;
-	opacity:0.85;
 }
 footer .blue-band .inner{
 	max-width:1000px;
